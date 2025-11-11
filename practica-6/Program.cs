@@ -14,6 +14,7 @@ namespace practica_6
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double F = Math.Sin(x) - 2 * Math.Cos(x);
+            Console.WriteLine($"Для значения x = {x}, F = {F}");
 
         }
     }
